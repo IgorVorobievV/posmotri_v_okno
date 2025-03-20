@@ -60,7 +60,6 @@ ol {
 .search-form {
   display: flex;
   justify-content: space-between;
-  align-items: end;
 }
 .search-form__fieldset {
   display: flex;
@@ -114,6 +113,7 @@ ol {
 .search-form__checkbox-list{
   display: flex;
   gap: 15px;
+  margin: 2px 0;
 }
 .search-form__pseudo-checkbox {
   inline-size: 19px;
@@ -166,6 +166,7 @@ ol {
 }
 .search-form__submit-button {
   inline-size: 194px;
+  align-self: end;
 }
 .content__details {
   display: flex;
